@@ -42,7 +42,7 @@ def reduce_to_all_true(source_array)
       return all_true 
     end
   }
-  p all_true
+  all_true
 end
   
   
