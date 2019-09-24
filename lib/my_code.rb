@@ -21,7 +21,7 @@ end
 def map_to_square(source_array) 
   square_arr = []
   source_array.length.times { |index|
-    square_arr << source_array[index]** 
+    square_arr << source_array[index] ** 2 
   }
   square_arr 
 end 
