@@ -39,9 +39,9 @@ def reduce_to_all_true(source_array)
   source_array.length.times { |index|
     !!source_array[index] ? all_true = true : all_true = false
     p all_true
-    #if all_true == false
-     # return all_true 
-    #end
+    if all_true == false
+      return all_true 
+    end
   }
   all_true
 end
