@@ -46,11 +46,11 @@ def reduce_to_all_true(source_array)
 end
 
 def reduce_to_any_true(source_array)
-  any_true = true 
+  any_true = false 
   source_array.length.times { |index|
-    !!source_array[index] ? all_true = true : all_true = false
-    if all_true == false
-      return all_true 
+    !!source_array[index] ? any_true = true : any_true = false
+    if any_true == true
+      return any_true 
     end
   }
   any_true
