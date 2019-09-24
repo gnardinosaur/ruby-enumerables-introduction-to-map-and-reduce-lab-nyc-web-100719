@@ -13,7 +13,7 @@ end
 def map_to_double(source_array) 
   double_arr = []
   source_array.length.times { |index|
-    double_arr << source_array[index] * 2 
+    double_arr << source_array[index]*2 
   }
   double_arr 
 end 
@@ -21,7 +21,7 @@ end
 def map_to_square(source_array) 
   square_arr = []
   source_array.length.times { |index|
-    square_arr << source_array[index] ** 
+    square_arr << source_array[index]** 
   }
   square_arr 
 end 
